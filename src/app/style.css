@@ -1,0 +1,30 @@
+.box {
+  border: 3px solid #fff;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #007bff;
+  transition: background-color 0.3s;
+}
+
+.box:hover {
+  cursor: pointer;
+}
+
+.box-content {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.filled-box {
+  cursor: not-allowed;
+}
+
+.winner-box {
+  background-color: #28a745 !important;
+}
+
+.loser-box {
+  background-color: #dc3545 !important;
+}
